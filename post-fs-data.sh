@@ -19,6 +19,9 @@ mount -o ro,bind $MODDIR/xml/permissions/oplusfeature.region_cn.com.oplus.batter
 
 #mount -o ro,bind $MODDIR/xml/permissions/feature_com.android.phone.xml /mnt/vendor/my_region/etc/extension/feature_com.android.phone.xml
 
+# Enable Dolby Stereo
+mount -o ro,bind $MODDIR/xml/permissions/oplus.product.features_dolby_stereo.xml /mnt/vendor/my_product/etc/permissions/oplus.product.features_dolby_stereo.xml
+
 # Unlock engineermode
 ENG_XML="engineer_order_list.xml"
 if [ -e "/system/system_ext/etc/engineermode/${ENG_XML}" ]; then
