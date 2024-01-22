@@ -13,6 +13,7 @@ MODDIR=${0%/*}
 BRAND=$(getprop ro.com.google.clientidbase)
 
 # Disable CN GMS restriction
+mount -o ro,bind $MODDIR/xml/permissions/appfeature.region_cn.com.oplus.battery.xml /mnt/vendor/my_bigball/etc/extension/appfeature.region_cn.com.oplus.battery.xml
 mount -o ro,bind $MODDIR/xml/permissions/oplus.feature.control_cn_gms.xml /mnt/vendor/my_bigball/etc/permissions/oplus.feature.control_cn_gms.xml
 mount -o ro,bind $MODDIR/xml/permissions/oplusfeature.region_cn.com.oplus.battery.xml /mnt/vendor/my_bigball/etc/permissions/oplusfeature.region_cn.com.oplus.battery.xml
 
