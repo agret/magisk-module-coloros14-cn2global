@@ -59,7 +59,7 @@
         </string-array>
         <string name="gps.supl_host">supl.google.com</string>
         <string name="gps.supl_port">7275</string>
-        <string name="gps.supl_ver">0x20000</string>
+        <string name="gps.supl_ver">0x20004</string>
         <string name="gps.supl_mode">1</string>
         <string name="gps.supl_es">0</string>
         <string name="gps.es_extension_sec">300</string>
@@ -392,6 +392,14 @@
             <item value="27201" />
         </string-array>
         <int name="vowifi_status" value="1" />
+    </carrier_config>
+
+    <carrier_config operator="FR-Free">
+        <string-array name="mccmnc" num="1">
+            <item value="20815" />
+        </string-array>
+        <int name="vowifi_preferred_mode" value="1" />
+        <int name="vowifi_roaming_preferred_mode" value="1" />
     </carrier_config>
     
 </carrier_config_list>
