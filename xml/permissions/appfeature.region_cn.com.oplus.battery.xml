@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- indicate if the device is export. Agret Mod: Enabled -->
+    <app_feature name="com.oplus.battery.one_key_power_save" args="boolean:true"/>
+    <!-- disable update app update info in exp version Agret Mod: Enabled -->
+    <app_feature name="com.oplus.battery.disable_app_update_info" args="boolean:true"/>
+    <!-- enable hidden api in china region Agret Mod: Disabled -->
+    <app_feature name="com.oplus.battery.enable_hidden_api_collect" args="boolean:false"/>
+    <!-- enable abnormal function in china region Agret Mod: Disabled -->
+    <app_feature name="com.oplus.battery.support_abnormal" args="boolean:false"/>
+</extend_features>
