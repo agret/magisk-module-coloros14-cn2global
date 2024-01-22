@@ -1,6 +1,6 @@
-id=oplus-cn-conv
-name=Patch for OPLUS China
+id=oplus-coloros14-cn-conv
+name=ColorOS China to Global
 version=v13
-versionCode=13
-author=AndroPlus
-description=OPLUS China to Global
+versionCode=20240122
+author=AndroPlus and Agret
+description=ColorOS China to Global
